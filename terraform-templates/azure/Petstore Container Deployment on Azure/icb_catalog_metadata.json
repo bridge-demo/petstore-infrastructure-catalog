@@ -1,0 +1,12 @@
+{
+    "icbCatalogRepository": [
+        {
+            "providerName": "azure",
+            "providerCode": "azure",
+            "discoverContent": true,
+            "enableVersion": true,
+            "sourcePath": "/",
+            "serviceOfferings": []
+        }
+    ]
+}
