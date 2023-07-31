@@ -76,19 +76,5 @@ variable kubernetes_cluster_name {
     default = "petstoreAKSCluster"
     description = "Enter the name of Azure Kubernetes Service Cluster it should contain, only letters, numbers, underscores, and hyphens. The name must start and end with a letter or number."
 }
-variable snowScriptUrl {
-    type = string
-    default = "https://example.service-now.com/api/ibmgs/azurehealth"
-    description = "The complete snow url that points to the snow script api that converts azure alert schema to snow incidents"
-}
-variable snowUser {
-    type = string
-    default = "youruser@example.com"
-    description = "Snow user with the permissions to create incidents"
-}
-variable snowPassword {
-    type = string
-    default = "passwordExample33"
-    description = "Password of the snow user"
-}
+
 

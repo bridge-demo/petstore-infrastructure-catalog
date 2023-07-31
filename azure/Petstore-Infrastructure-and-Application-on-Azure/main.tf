@@ -73,14 +73,4 @@ module "firewall" {
   ]
 }
 
-module "snowAlerts" {
-  source = "./modules/snowAlerts"
-  ClusterId = module.cluster.ID
-  resource_group_name = var.resource_group_name
-  snowScriptUrl = var.snowScriptUrl
-  snowUser = var.snowUser
-  snowPassword = var.snowPassword
-  depends_on = [
-    module.cluster
-  ]
-}
+
