@@ -78,3 +78,8 @@ variable kubernetes_cluster_name {
 }
 
 
+variable kubernetes_version {
+    type = string
+    default = "1.26.6"
+    description = "kubernetes version for the AKS cluster"
+}

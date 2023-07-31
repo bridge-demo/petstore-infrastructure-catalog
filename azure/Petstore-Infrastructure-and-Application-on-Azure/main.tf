@@ -33,6 +33,7 @@ module "cluster" {
   resource_group_location = var.resource_group_location
   resource_group_name = var.resource_group_name
   kubernetes_cluster_name = var.kubernetes_cluster_name
+  kubernetes_version = var.kubernetes_version
   depends_on = [
     module.operations
   ]
