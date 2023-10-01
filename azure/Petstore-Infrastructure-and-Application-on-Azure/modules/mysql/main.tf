@@ -8,7 +8,7 @@ variable project_tag {}
 
 locals {
   size = 10*1024
-  version = "5.7"
+  version = "8.0"
   sku_name = "B_Gen5_2" # Basic
 }
 
