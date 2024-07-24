@@ -1,2 +1,2 @@
 Resource Type/ Service Id/ Service Group Id,Type,Region,SKU Name,SKU Description,Expression,Tier Config,Unit Of Measure,Rate
-f252d390-482c-11ef-b043-95078c4905df,serviceOffering,,Oracle_Database_Version,Oracle_Database_Version,TRUE,,OCPU/Hour,0.44355
+eb969680-4846-11ef-af66-391751199310,serviceOffering,,Oracle_Database_Version,Oracle_Database_Version,TRUE,,OCPU/Hour,4.2
